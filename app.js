@@ -61,7 +61,7 @@ function addItem(e) {
         setToDefault();
 
     }
-    else if(!value){
+    else if(value === ""){
         displayAlert("please enter value", "danger");
     }
 }
