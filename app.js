@@ -61,7 +61,7 @@ function addItem(e) {
         setToDefault();
 
     }
-    else if(value === ""){
+    else {
         displayAlert("please enter value", "danger");
     }
 }
@@ -148,7 +148,7 @@ function editItem(e)
 
 // set to default
 function  setToDefault() {
-    grocery.value = " ";
+    grocery.value = "";
     editFlag = false;
     editID = "";
     submitBtn.textContent = 'submit';
